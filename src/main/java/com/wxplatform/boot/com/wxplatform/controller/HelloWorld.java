@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HelloWorld {
 
-    @RequestMapping("/hello")
+    @RequestMapping("/")
     public String hello(){
         return "hello world!";
     }
